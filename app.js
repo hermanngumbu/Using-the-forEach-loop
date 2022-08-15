@@ -28,4 +28,11 @@ const contacts = [{
     },
 ];
 
-const myTableBody = document.querySelector('')
+const myTableBody = document.querySelector('tbody');
+
+contacts.forEach(contact => {
+    const displayContact = "<tr><td>" + contact.id + "</td><td>" + contact.nom + "</td><td>" + contact.prenom + "</td><td>" + contact.email + "</td><td>" + contact.age + "</td></tr>"
+
+
+    myTableBody.innerHTML += displayContact;
+})
