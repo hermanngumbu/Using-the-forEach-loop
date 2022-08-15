@@ -14,16 +14,16 @@ const contacts = [{
     },
     {
         id: 3,
-        nom: 'Rashidi',
-        prenom: 'Lydie',
-        email: 'lydie.rashidi@yahoo.fr',
+        nom: 'Leon',
+        prenom: 'Masakula',
+        email: 'leon.mas@yahoo.fr',
         age: 43,
     },
     {
         id: 4,
-        nom: 'Matondo',
-        prenom: 'Jules',
-        email: 'jules@yahoo.com',
+        nom: 'Lingabo',
+        prenom: 'Junior',
+        email: 'juniorlingabo@gmail.com',
         age: 10,
     },
 ];
